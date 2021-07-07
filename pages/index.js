@@ -1,5 +1,11 @@
+import { Layout, Hero } from "../components/index";
+
 const Page = () => {
-  return <></>;
+  return (
+    <Layout>
+      <Hero />
+    </Layout>
+  );
 };
 
 export default Page;
