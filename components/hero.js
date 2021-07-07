@@ -90,7 +90,7 @@ const Hero = (props) => {
             </span>{" "}
           </h1>
           <p>
-            Make the coolest looking Linux distro and get anointed as a{" "}
+            Make the coolest looking Linux desktop and get anointed as a{" "}
             <span
               sx={{
                 color: "orange",
