@@ -18,7 +18,7 @@ const How = ({ ...props }) => {
           Join Our Slack!{" "}
         </span>{" "}
       </h1>
-      <p sx={{ textAlign: "start", variant: "para" }}>
+      <p sx={{ textAlign: ["center"], variant: "para" }}>
         We are organizing Hackinux via our slack. Our slack is a community of
         thousands of hackers and is
         <a
