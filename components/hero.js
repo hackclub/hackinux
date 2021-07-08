@@ -24,7 +24,7 @@ const Hero = (props) => {
           border: "3px solid white",
 
           position: "absolute",
-          bottom: [0, -30, -40],
+          bottom: [0, -40, -40],
           right: [3, 4],
           zIndex: 5,
 
