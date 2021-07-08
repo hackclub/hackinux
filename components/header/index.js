@@ -178,7 +178,7 @@ const Nav = ({ data, isHomePage }) => (
 
 const data = [
   { text: "Home", url: "../../../" },
-  { text: "Faqs", url: "./faq" },
+  { text: "FAQs", url: "./faq" },
   { text: "Slack", url: "https://hackclub.com/slack" },
 ];
 
@@ -196,7 +196,7 @@ const Overlay = ({ display }) => (
     }}
   >
     <OverlayItem Text={"Home"} url="../../" />
-    <OverlayItem Text={"Faqs"} url="./faq" />
+    <OverlayItem Text={"FAQs"} url="./faq" />
     <OverlayItem Text={"Slack"} url="https://hackclub.com/slack" />
   </div>
 );
