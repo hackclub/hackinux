@@ -1,12 +1,13 @@
 /**@jsxImportSource theme-ui*/
 
 import { Container, Box, Heading, BaseStyles } from "theme-ui";
-import { Layout } from "../components/index";
+import { Layout, Meta } from "../components/index";
 import Faq_Mdx from "../components/faq.mdx";
 
 const Faq = () => {
   return (
     <Layout shouldBeTransparent={false}>
+      <Meta description={description} image={og_url} />
       <Box
         as="header"
         sx={{
@@ -54,5 +55,8 @@ const Faq = () => {
     </Layout>
   );
 };
+
+const description = `Some of the most asked questions about Hackinux`;
+const og_url = `https://cloud-7axezntl1-hack-club-bot.vercel.app/0image.png`;
 
 export default Faq;
