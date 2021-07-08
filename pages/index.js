@@ -1,4 +1,12 @@
-import { Layout, Hero, About, What, How, Prize } from "../components/index";
+import {
+  Layout,
+  Hero,
+  About,
+  What,
+  How,
+  Prize,
+  Who,
+} from "../components/index";
 
 const Page = () => {
   return (
@@ -8,6 +16,7 @@ const Page = () => {
       <What />
       <How />
       <Prize />
+      <Who />
     </Layout>
   );
 };
