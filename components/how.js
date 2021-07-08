@@ -5,7 +5,7 @@ import { lighten } from "@theme-ui/color";
 
 const How = ({ ...props }) => {
   return (
-    <Container {...props} sx={{ textAlign: "center" }}>
+    <Container {...props} sx={{ textAlign: "center", variant: "cont" }}>
       <h2 sx={{ variant: "subt" }}> so how do I participate?</h2>
       <h1 sx={{ variant: "heading" }}>
         {" "}
@@ -33,7 +33,7 @@ const How = ({ ...props }) => {
         </a>
       </p>
 
-      <Grid columns={[1, 1, 2]}>
+      <Grid columns={[1, 1, 2]} sx={{ px: [4, 5, 6], py: [1] }}>
         {data.map((props) => (
           <Card {...props} />
         ))}
@@ -46,6 +46,7 @@ const Card = ({ title, Para, url, bg, ...props }) => {
   return (
     <Box
       sx={{
+        mt: [2],
         py: [4],
         px: [2],
         bg: bg ?? "red",
@@ -55,8 +56,8 @@ const Card = ({ title, Para, url, bg, ...props }) => {
 
         ":after": {
           content: `""`,
-          width: [60],
-          height: [60],
+          width: [50, 60],
+          height: [50, 60],
           display: "block",
           backgroundImage: `url(${url})`,
           backgroundSize: "cover",
