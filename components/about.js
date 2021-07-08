@@ -36,7 +36,7 @@ const About = ({ ...props }) => {
         <Box>
           <p sx={{ variant: "para", textAlign: "start", mt: [0] }}>
             Welcome to Hackinux, compete with other hackers in making the
-            coolest looking linux desktops to win Hack Club swags and get
+            coolest looking Linux desktops to win Hack Club swags and get
             anointed as a Linux Knight via our social media handles.
           </p>
           <img

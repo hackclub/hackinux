@@ -3,10 +3,10 @@
 import Header from "./header/index";
 import Footer from "./footer/index";
 
-const Layout = ({ children, ...props }) => {
+const Layout = ({ shouldBeTransparent = true, children, ...props }) => {
   return (
     <>
-      <Header shouldBeTransparent />
+      <Header shouldBeTransparent={shouldBeTransparent} />
 
       {children}
       <Footer />

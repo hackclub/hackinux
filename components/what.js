@@ -20,8 +20,8 @@ const What = ({ ...props }) => {
         </span>{" "}
       </h1>
       <p sx={{ variant: "para" }}>
-        In linux everything is customizable and this is why hackers love it! You
-        can hack anything from Terminal to your Desktop Icons!
+        In Linux distros everything is customizable and this is why hackers love
+        it! You can hack anything from your Terminal to your Desktop Icons!
       </p>
       <Grid columns={[1, 1, 2]}>
         {data.map((props) => (
@@ -66,7 +66,7 @@ const data = [
     title: "Beautiful Terminals!",
     Para: () => (
       <p>
-        You can configure your terminal the way you like in linux!
+        You can configure your terminal the way you like in Linux distros!
         <ul>
           <li>Use crazy fonts!</li>
           <li>use nerdy icons!</li>
@@ -82,7 +82,7 @@ const data = [
       <p>
         In Linux Distros, you can customize the Layout of your screen! You can
         use a variety of Desktop Environments and can configure them the way
-        your Heart desires!{" "}
+        your heart desires!{" "}
       </p>
     ),
   },

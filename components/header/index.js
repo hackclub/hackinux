@@ -178,9 +178,8 @@ const Nav = ({ data, isHomePage }) => (
 
 const data = [
   { text: "Home", url: "../../../" },
-  { text: "Join", url: "https://apply.hackclub.com/" },
-  { text: "Team", url: "../../../team" },
-  { text: "Branding", url: "https://hackclub.com/brand/" },
+  { text: "Faqs", url: "./faq" },
+  { text: "Slack", url: "https://hackclub.com/slack" },
 ];
 
 const Overlay = ({ display }) => (
@@ -197,9 +196,8 @@ const Overlay = ({ display }) => (
     }}
   >
     <OverlayItem Text={"Home"} url="../../" />
-    <OverlayItem Text={"Join"} url="https://apply.hackclub.com/" />
-    <OverlayItem Text={"Team"} url="../../../team" />
-    <OverlayItem Text={"Branding"} url="https://hackclub.com/brand/" />
+    <OverlayItem Text={"Faqs"} url="./faq" />
+    <OverlayItem Text={"Slack"} url="https://hackclub.com/slack" />
   </div>
 );
 

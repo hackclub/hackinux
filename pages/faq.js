@@ -6,7 +6,7 @@ import Faq_Mdx from "../components/faq.mdx";
 
 const Faq = () => {
   return (
-    <Layout>
+    <Layout shouldBeTransparent={false}>
       <Box
         as="header"
         sx={{

@@ -82,7 +82,7 @@ const data = [
     Para: () => (
       <p>
         go to{" "}
-        <a sx={{ color: "white" }} href="slack">
+        <a sx={{ color: "white" }} href="https://hackclub.com/slack">
           {" "}
           #hackinux
         </a>{" "}
@@ -97,8 +97,8 @@ const data = [
     bg: "purple",
     Para: () => (
       <p>
-        You can make your submissions by 31st of July, We will anounce the
-        winner by the 1st week of August!
+        You can make your submissions by 31st of July 2021, We will anounce the
+        winner by the 1st week of August 2021!
       </p>
     ),
   },

@@ -30,7 +30,7 @@ const Prize = ({ ...props }) => {
           {" "}
           Hack Club stickers{" "}
         </a>{" "}
-        for free to the winner of Hackinux and we will also anoint you as{" "}
+        for free to the winner of Hackinux and we will also anoint them as{" "}
         <span sx={{ color: "orange", fontWeight: "bold" }}>
           Linux Knight
         </span>{" "}
@@ -55,11 +55,7 @@ const Prize = ({ ...props }) => {
       </Grid>
 
       <Box sx={{ textAlign: "center", mt: [3] }}>
-        <Button
-          as="a"
-          href="https://hackclub.com/stickers'"
-          sx={{ mx: "auto" }}
-        >
+        <Button as="a" href="https://hackclub.com/stickers" sx={{ mx: "auto" }}>
           See More
         </Button>
       </Box>

@@ -1,6 +1,6 @@
 /**@jsxImportSource theme-ui*/
 
-import { Box, Container } from "theme-ui";
+import { Box, Button, Container } from "theme-ui";
 
 const Who = ({ ...props }) => {
   return (
@@ -15,6 +15,9 @@ const Who = ({ ...props }) => {
         So if you have the hacker spirit and want to compete with other hackers
         in your region, then what are you waiting for!{" "}
       </p>
+      <Button as="a" href="./faq" sx={{ variant: "buttons.cta" }}>
+        FAQs
+      </Button>
     </Container>
   );
 };
