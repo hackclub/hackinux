@@ -1,10 +1,11 @@
-import { Layout, Hero, About } from "../components/index";
+import { Layout, Hero, About, What } from "../components/index";
 
 const Page = () => {
   return (
     <Layout>
       <Hero />
       <About />
+      <What />
     </Layout>
   );
 };

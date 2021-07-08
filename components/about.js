@@ -7,13 +7,12 @@ const About = ({ ...props }) => {
     <Container sx={{ textAlign: "center", mt: [5] }}>
       <h2
         sx={{
-          color: "muted",
-          my: [0],
+          variant: "subt",
         }}
       >
         time to hack linux distros
       </h2>
-      <h1 sx={{ fontSize: [4, 5], my: [0] }}>
+      <h1 sx={{ variant: "heading" }}>
         Make the coolest <span sx={{ color: "red" }}>linux desktop</span>
       </h1>
       <Flex
@@ -35,7 +34,7 @@ const About = ({ ...props }) => {
           sx={{ width: [600], maxWidth: ["99%"], mx: [4, 4, 4, 4, 5] }}
         />
         <Box>
-          <p sx={{ fontSize: [1, 2], textAlign: "start", mt: [0] }}>
+          <p sx={{ variant: "para", textAlign: "start", mt: [0] }}>
             Welcome to Hackinux, compete with other hackers in making the
             coolest looking linux desktops to win Hack Club swags and get
             anointed as a Linux Knight via our social media handles.
