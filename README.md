@@ -1,34 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hackinux
 
-## Getting Started
+Welcome to Hackinux, compete with other hackers in making the coolest looking Linux desktops to win Hack Club swags and get anointed as a Linux Knight via our social media handles.
 
-First, run the development server:
+![hackinux image](https://cloud-bhilv8nom-hack-club-bot.vercel.app/0image.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Hack Anything Linux!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+In Linux distros everything is customizable and this is why hackers love it! You can hack anything from your Terminal to your Desktop Icons!
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+![terminal image](https://cloud-d8a0ivt2r-hack-club-bot.vercel.app/0image.png)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Win Hack Club Stickers!
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+We will ship Hack Club stickers for free to the winner of Hackinux and we will also anoint them as Linux Knight via our social media handles {a shoutout }.
 
-## Learn More
+![sticker image](https://cloud-lvz35ahwp-hack-club-bot.vercel.app/0image.png)
 
-To learn more about Next.js, take a look at the following resources:
+## Grab an Orpheus Leap
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The winner will get an Orpheus Leap! It is an Arduino-compatible microcontroller!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![leap image](https://cloud-jhumlk8xc-hack-club-bot.vercel.app/0image.png)
 
-## Deploy on Vercel
+## Anyone from Asia or Africa!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Any hacker who lives in Asia or Africa is eligible for this competition! So if you have the hacker spirit and want to compete with other hackers in your region, then what are you waiting for!

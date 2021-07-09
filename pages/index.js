@@ -7,6 +7,7 @@ import {
   Prize,
   Who,
   Meta,
+  Leap,
 } from "../components/index";
 
 const Page = () => {
@@ -18,6 +19,7 @@ const Page = () => {
       <What />
       <How />
       <Prize />
+      <Leap />
       <Who />
     </Layout>
   );
