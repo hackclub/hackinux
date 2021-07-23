@@ -10,9 +10,10 @@ const Who = ({ ...props }) => {
         Everyone! <span sx={{ color: "blue", variant: "wavy" }}> </span>{" "}
       </h1>
       <p sx={{ variant: "para" }}>
-        Any hacker who is in High School/University is eligible for this
-        competition! So if you have the hacker spirit and want to compete with
-        other hackers in your region, then what are you waiting for!{" "}
+        Any hacker who is in High School/University or is a Teenager is eligible
+        for this competition! So if you have the hacker spirit and want to
+        compete with other hackers in your region, then what are you waiting
+        for!{" "}
       </p>
       <Button as="a" href="./faq" sx={{ variant: "buttons.cta" }}>
         FAQs
